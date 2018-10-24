@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name = "TwitterKit"
-  s.version = "3.5.1"
+  s.version = "3.5.2"
   s.summary = "Increase user engagement and app growth."
   s.homepage = "https://github.com/MadArkitekt/twitter-kit-ios"
   s.documentation_url = "https://github.com/MadArkitekt/twitter-kit-ios/wiki"
   s.social_media_url = "https://twitter.com/TwitterDev"
   s.authors = "Twitter & MadArkitekt"
   s.platform = :ios
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = "9.0"
   s.requires_arc = true
   s.source = { :git => 'https://github.com/MadArkitekt/twitter-kit-ios.git', :tag => s.version.to_s }
 #   s.source = { :http => "https://ton.twimg.com/syndication/twitterkit/ios/#{s.version}/TwitterKit.zip" }
