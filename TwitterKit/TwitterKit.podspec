@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/MadArkitekt/twitter-kit-ios"
   s.documentation_url = "https://github.com/MadArkitekt/twitter-kit-ios/wiki"
   s.social_media_url = "https://twitter.com/TwitterDev"
-  s.authors = "Twitter"
+  s.authors = "Twitter & MadArkitekt"
   s.platform = :ios, "9.0"
   s.source = { :http => "https://ton.twimg.com/syndication/twitterkit/ios/#{s.version}/TwitterKit.zip" }
   s.vendored_frameworks = "iOS/TwitterKit.framework"
