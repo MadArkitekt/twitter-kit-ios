@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -2974,7 +2974,7 @@
 				};
 			};
 			buildConfigurationList = A97654E018E0B29B00E25169 /* Build configuration list for PBXProject "TwitterKit" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -3471,8 +3471,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.sdk.ios.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_BRIDGING_HEADER = "TwitterKitTests/TwitterKit Tests-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -3504,6 +3505,7 @@
 					"$(TARGET_BUILD_DIR)/Headers",
 					"$(BUILT_PRODUCTS_DIR)/Headers",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -3533,7 +3535,9 @@
 					"$(TARGET_BUILD_DIR)/Headers",
 					"$(BUILT_PRODUCTS_DIR)/Headers",
 				);
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
