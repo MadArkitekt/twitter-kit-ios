@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = "9.0"
   s.requires_arc = true
-  s.source = { :http => 'https://github.com/edcsalter/twitter-kit-ios/blob/master/TwitterKit/TwitterKit.zip', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/edcsalter/twitter-kit-ios.git', :tag => s.version.to_s }
 #   s.source = { :http => "https://ton.twimg.com/syndication/twitterkit/ios/#{s.version}/TwitterKit.zip" }
   s.vendored_frameworks = "iOS/TwitterKit.framework"
   s.license          = 'MIT'
